@@ -23,7 +23,7 @@ Um projeto interativo feito com **React**, **Vite** e **TypeScript**, inspirado 
 ---
 
 ## 🚀 Como rodar o projeto localmente
-1. Clone o repositório para a sua máquina: `git clone https://github.com/seu-usuario/arcane-fanpage.git`  
+1. Clone o repositório para a sua máquina: `[git clone https://github.com/DarkBJ/arcane-universe.git`  
 2. Entre na pasta do projeto: `cd arcane`  
 3. Instale as dependências: `npm install`  
 4. Rode o projeto em modo de desenvolvimento: `npm run dev`  
