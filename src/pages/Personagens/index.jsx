@@ -72,6 +72,11 @@ export default function Personagens() {
     []
   );
 
+  const [search, setSearch] = useState("");
+  const filtro = personagens.filter((p) => 
+    p.nome.toLowerCase().includes(search.toLowerCase())
+  );
+
   const [open, setOpen] = useState(false);
   const [selectedPersonagem, setSelectedPersonagem] = useState(null);
   const [isClosing, setIsClosing] = useState(false);
@@ -115,18 +120,21 @@ Descubra seus passados, suas lutas e o que os move em um mundo dividido entre pr
         </div>
 
 
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-center">
+                                                    <div className="w-full flex items-center justify-center my-10">
+                        <div className="w-[70%] h-1 bg-amber-500 rounded-[50%]"></div>
+                      </div>
             <div className="w-full flex flex-col justify-center items-center">
-                <h2 className="text-white font-bold text-[1.3em]">Filtros</h2>
-                <div className="w-full flex flex-col items-center justify-center mt-5">
-                    <input className="p-3 w-100 bg-white rounded-md text-center" type="text" placeholder="Buscar" />
+                <h2 className=" font-bold text-[1.3em] font-(family-name:--fontAll) text-amber-500">Filtro</h2>
+                <div className="w-full flex flex-col items-center justify-center mt-1">
+                    <input className="p-3 w-100 bg-white rounded-md text-center" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Buscar" />
                 </div>
             </div>
         </div>
 
 
         <div className="w-full grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          {personagens.map((personagem) => (
+          {filtro.map((personagem) => (
             <div
               key={personagem.id}
               className="w-full h-130 overflow-hidden flex flex-col cursor-pointer hover:scale-105 duration-300 rounded-md"
