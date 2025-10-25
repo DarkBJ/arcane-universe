@@ -108,7 +108,7 @@ export default function Personagens() {
   return (
     <div className="w-screen h-full min-h-screen flex flex-col items-center justify-center bg-black">
       <div className="absolute inset-0 bg-cover bg-center shadow-[inset_0_-80px_50px_rgba(0,0,0,0.7)] bg-[url('./assets/header/arc-perso.jpg')]" />
-      <div className="absolute inset-0 bg-black/90" />
+      <div className="absolute inset-0 bg-black/70" />
       <div className="w-[85%] relative flex flex-col gap-10 items-center justify-center pb-20">
         <div className="flex flex-col text-center w-full justify-center mt-50 items-center">
             <span className="text-white text-[1em] md:text-[1.5em] font-(family-name:--fontAll) font-semibold tracking-[2px]">Personagens</span>
@@ -127,7 +127,7 @@ Descubra seus passados, suas lutas e o que os move em um mundo dividido entre pr
             <div className="w-full flex flex-col justify-center items-center">
                 <h2 className=" font-bold text-[1.3em] font-(family-name:--fontAll) text-amber-500">Filtro</h2>
                 <div className="w-full flex flex-col items-center justify-center mt-1">
-                    <input className="p-3 w-100 bg-white rounded-md text-center" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Buscar" />
+                    <input className="p-3 w-full max-w-100 bg-white rounded-md text-center" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Buscar" />
                 </div>
             </div>
         </div>
@@ -137,10 +137,10 @@ Descubra seus passados, suas lutas e o que os move em um mundo dividido entre pr
           {filtro.map((personagem) => (
             <div
               key={personagem.id}
-              className="w-full h-130 overflow-hidden flex flex-col cursor-pointer hover:scale-105 duration-300 rounded-md"
+              className="w-full h-130 overflow-hidden flex flex-col cursor-pointer hover:scale-110 duration-400 rounded-md border-1 border-amber-500"
               onClick={() => openModal(personagem)}
             >
-              <div className="border-b-1 border-amber-500 h-105">
+              <div className="border-b-5 border-amber-500 rounded-[10px] h-105">
                 <img
                   className="w-full h-full object-cover"
                   src={personagem.image}
@@ -148,11 +148,11 @@ Descubra seus passados, suas lutas e o que os move em um mundo dividido entre pr
                 />
               </div>
               <div className="bg-slate-950 text-center flex flex-col justify-center flex-auto p-2">
-                <h1 className="text-amber-500 font-medium text-[20px]">
+                <h1 className="text-amber-500 font-(family-name:--fontAll) font-bold text-[20px] uppercase">
                   {personagem.nome}
                 </h1>
-                <span className="text-amber-100 tracking-[2px] text-[0.85em]">
-                  {personagem.local}
+                <span className="text-amber-100/70 tracking-[2px] text-[0.75em] uppercase font-bold">
+                  {personagem.vulgo}
                 </span>
               </div>
             </div>
