@@ -7,6 +7,14 @@ import Viktor from '../../assets/personagens/Viktor.jpg'
 import ViktorBanner from '../../assets/personagens/Viktor-banner.jpg'
 import Jayce from '../../assets/personagens/Jayce.jpg'
 import JayceBanner from '../../assets/personagens/Jayce-banner.jpg'
+import Ekko from '../../assets/personagens/ekko.jpg'
+import EkkoBanner from '../../assets/personagens/ekko-banner.jpg'
+import Caitlyn from '../../assets/personagens/caitlyn.jpg'
+import CaitlynBanner from '../../assets/personagens/caitlyn-banner.jpg'
+import Vander from '../../assets/personagens/vander.jpg'
+import VanderBanner from '../../assets/personagens/vander-banner.jpg'
+import Mel from '../../assets/personagens/mel.jpg'
+import MelBanner from '../../assets/personagens/mel-banner.jpg'
 import { X } from "lucide-react";
 
 export default function Personagens() {
@@ -68,6 +76,62 @@ export default function Personagens() {
         },
         vulgo: 'o Defensor do Amanhã',
       },
+            {
+        id: 5,
+        nome: "Ekko",
+        local: "Zaun",
+        image: Ekko,
+        banner: EkkoBanner,
+        moreInfoPerso: {
+          idade: 19,
+          resumoHistoria:
+            "Prodígio das ruas violentas de Zaun, Ekko é capaz de manipular o tempo e reverter qualquer situação a seu favor. Ele usa sua própria invenção, o Revo-Z, para explorar as possíveis ramificações da realidade, criando o momento perfeito para realizar o que parecia impossível na primeira vez todas as vezes. Embora Ekko valorize muito sua liberdade, quando algo ameaça as pessoas de quem gosta, ele e seus Fogolumes não medem esforços para defendê-las.",
+            historiaCompleta: 'Ekko cresceu nas ruas de Zaun, entre sucata, fumaça e caos, mas desde pequeno se destacou por sua inteligência, curiosidade e habilidade com tecnologia. Amigo de infância de Vi e Powder (Jinx), ele fazia parte do mesmo grupo de crianças lideradas por Vander, que lhes dava abrigo e segurança. Ekko sempre admirou a coragem de Vi e o talento criativo de Powder, mas viu sua infância ruir com a tragédia que separou as duas irmãs — o dia em que a explosão causada por Powder matou Mylo, Claggor e Vander, e mergulhou Zaun em ainda mais violência. Anos depois, Ekko sobreviveu e amadureceu. Enquanto Zaun afundava sob o domínio de Silco e da droga Shimmer, ele reuniu jovens rebeldes e formou o grupo Firelights, uma resistência que lutava para proteger seu povo sem recorrer à crueldade ou à corrupção. Ele se tornou um símbolo de esperança, acreditando que Zaun ainda podia ter um futuro melhor. Criativo como sempre, usou sucata e engenhosidade para construir armas, veículos e até dispositivos temporais — reflexo de sua mente genial e visionária. Quando reencontra Vi e Caitlyn, Ekko mostra o quanto mudou: de um garoto de rua, tornou-se um líder forte e estratégico, com um senso de justiça puro e pragmático. No entanto, seu reencontro mais doloroso é com Jinx, sua antiga amiga de infância, agora uma criminosa instável e perigosa. Em uma luta intensa e emocional, Ekko consegue derrotá-la, mas hesita em matá-la, lembrando-se da menina que ela foi — o que revela que, apesar de tudo, ele ainda guarda carinho e compaixão por ela. Ekko representa o lado esperançoso e humano de Zaun, em contraste com o desespero de Silco e a loucura de Jinx. Ele acredita no poder das pessoas de mudarem o próprio destino e recusa-se a deixar que a dor o corrompa. Ao final da temporada, Ekko permanece como um símbolo de resistência e renovação — alguém que carrega o passado, mas luta todos os dias para construir um futuro diferente para Zaun.', 
+        },
+        vulgo: 'o Rapaz que Estilhaçou o Tempo',
+      },
+                  {
+        id: 6,
+        nome: "Caitlyn",
+        local: "Piltover",
+        image: Caitlyn,
+        banner: CaitlynBanner,
+        moreInfoPerso: {
+          idade: 19,
+          resumoHistoria:
+            "Conhecida como sua melhor pacificadora, Caitlyn Kiramman também é a melhor escolha de Piltover para livrar a cidade de seus elementos criminosos elusivos. É comum que ela faça dupla com Vi, agindo como um contraponto de calmaria para a natureza impetuosa de sua parceira. Mesmo carregando um rifle hextec único, a arma mais poderosa de Caitlyn é seu intelecto superior, que permite que ela prepare elaboradas armadilhas para qualquer fora da lei tolo o suficiente para operar na Cidade do Progresso.",
+            historiaCompleta: 'Caitlyn Kiramman nasceu em Piltover, em uma das famílias mais influentes e ricas da cidade. Desde jovem, cresceu cercada por conforto, educação refinada e expectativas de seguir o caminho político da família. No entanto, Caitlyn sempre teve um espírito curioso, justo e independente, o que a afastava da vida luxuosa e superficial da elite. Enquanto sua mãe queria que ela se tornasse uma figura política, Caitlyn preferia a ação direta: ela sonhava em descobrir a verdade por trás da corrupção que via nas sombras de Piltover. Movida por esse ideal, ela se tornou uma enforcer, uma policial dedicada a investigar crimes e proteger os inocentes, mesmo que isso significasse desafiar as ordens de seus superiores. Durante uma investigação, Caitlyn descobre pistas que ligam a droga Shimmer e os ataques de Zaun a uma rede de corrupção dentro do próprio sistema de Piltover. Suas descobertas acabam levando-a a cruzar o caminho de Vi, uma prisioneira zaunita que parece saber mais do que ninguém sobre o submundo. A parceria entre Caitlyn e Vi começa com desconfiança — duas mulheres de mundos completamente opostos —, mas rapidamente evolui para uma relação de respeito e cumplicidade. Através de Vi, Caitlyn vê a dura realidade de Zaun e percebe que os “inimigos” que sempre imaginou são, na verdade, vítimas de um sistema injusto. Essa jornada transforma profundamente sua visão de mundo, fazendo com que ela questione as políticas de Piltover e o próprio papel da elite que sempre serviu. Ao longo da série, Caitlyn prova ser corajosa, empática e incrivelmente determinada. No final da temporada, ela tenta, ao lado de Vi, impedir o conflito entre as duas cidades e salvar Jinx de si mesma. No entanto, a explosão iminente causada por Jinx simboliza a falência dos ideais que Caitlyn lutou para preservar. Sua história em Arcane é a de uma mulher que tenta equilibrar dever e compaixão — alguém que abandona os privilégios da nobreza para buscar justiça real, mesmo que isso a coloque contra o próprio mundo em que nasceu.', 
+        },
+        vulgo: 'a Xerife de Piltover',
+      },
+                        {
+        id: 7,
+        nome: "Warwick",
+        local: "Zaun",
+        image: Vander,
+        banner: VanderBanner,
+        moreInfoPerso: {
+          idade: 19,
+          resumoHistoria:
+            "Warwick é um monstro que caça pelas ruas cinzentas de Zaun. Transformado por experimentos agonizantes, seu corpo agora é fundido a um sistema complexo de câmaras e bombas, um maquinário que enche suas veias com fúria química. Ele surge das sombras para caçar os criminosos que aterrorizam o submundo da cidade. Warwick fica enfurecido quando sente o cheiro de sangue… e ninguém que o derrama consegue escapar.",
+            historiaCompleta: 'Vander foi um dos líderes da antiga rebelião de Zaun contra Piltover, um homem forte, carismático e movido pelo desejo de liberdade para seu povo. Após ver o conflito terminar em massacre, ele se arrepende da violência e faz um juramento de paz, decidindo proteger os moradores de Zaun de forma mais humana. Abandona a luta armada, abre o bar The Last Drop e passa a ser conhecido como o “Protetor de Zaun”, cuidando especialmente das crianças órfãs da guerra — entre elas, Vi e Powder, que ele cria como filhas. Durante anos, Vander tenta manter a paz entre as duas cidades, agindo como mediador entre o submundo de Zaun e os Enforcers de Piltover. Porém, seu passado volta a assombrá-lo quando Silco, um antigo aliado que ele traiu para pôr fim à revolta, retorna buscando vingança e poder. Quando as ações impensadas de Vi e Powder provocam uma explosão em Piltover, Vander tenta protegê-las, mas acaba capturado por Silco. É nesse momento que sua figura de pai e herói é posta à prova, e sua vida toma um rumo trágico. Durante o resgate, Vi tenta salvar Vander, mas o plano de Powder dá errado, causando a morte de amigos e deixando Vander gravemente ferido. Para salvar Vi, ele bebe o Shimmer, a substância criada por Silco, e se transforma em uma criatura monstruosa, lutando até o fim para proteger suas filhas. Seu sacrifício é um dos momentos mais emocionantes da série — a queda de um homem que fez de tudo para conter a violência, apenas para ser consumido por ela no final. Nos momentos finais da temporada, é sugerido que Vander sobrevive e se transforma em Warwick, um ser mutante criado nos experimentos de Singed. Nos jogos de League of Legends, Warwick é descrito como uma besta atormentada por memórias fragmentadas de uma vida anterior — ecos de sua antiga humanidade. Assim, Vander se torna o retrato da tragédia de Zaun: um homem bom transformado em monstro por um mundo cruel, e um lembrete de que até os mais nobres podem sucumbir ao desespero.', 
+        },
+        vulgo: 'a Ira Desimpedida de Zaun',
+      },
+                              {
+        id: 8,
+        nome: "Mel",
+        local: "Noxus",
+        image: Mel,
+        banner: MelBanner,
+        moreInfoPerso: {
+          idade: 19,
+          resumoHistoria:
+            "Mel Medarda é a suposta herdeira da família Medarda, que já foi uma das mais poderosas em Noxus. Sob a aparência de uma aristocrata elegante, ela esconde uma política talentosa que faz questão de saber cada detalhe a respeito de todas as pessoas que conhece. Depois de um encontro com a misteriosa Rosa Negra, Mel descobriu a extensão da farsa de sua mãe e, pela primeira vez, enfrentou uma situação potencialmente fora de seu controle. Com poderes mágicos recém-despertados, ela zarpou para casa em busca de respostas. Por mais que muitos ainda tentem apagar a luz dentro dela, a alma de Mel permanece indomável.",
+            historiaCompleta: 'Mel Medarda nasceu em Noxus, uma nação poderosa e militarista conhecida por sua brutalidade e ambição. Filha de uma família aristocrática, Mel sempre foi diferente de seus parentes: enquanto eles valorizavam a guerra e a força, ela acreditava no poder da inteligência, da arte e da diplomacia. Por desafiar os ideais de sua mãe, Ambessa Medarda, Mel foi exilada de Noxus e acabou encontrando refúgio em Piltover, onde usou sua astúcia para conquistar um lugar no Conselho da cidade. Em Piltover, Mel rapidamente se destacou como uma estrategista política brilhante. Ambiciosa, elegante e manipuladora quando necessário, ela via o poder não como um fim em si, mas como uma ferramenta para moldar o mundo de forma mais civilizada. Quando conhece Jayce Talis, um inventor promissor, enxerga nele não apenas potencial tecnológico, mas também uma oportunidade de influência. Ao apoiar o projeto Hextech, Mel impulsiona Jayce ao poder e consolida sua própria posição como a conselheira mais influente de Piltover. Com o tempo, a relação entre os dois ultrapassa a política e se torna emocional. Mel vê em Jayce algo que perdeu em Noxus: idealismo e esperança. No entanto, sua aproximação também a confronta com dilemas morais — ela começa a perceber que o progresso e o poder têm custos humanos, e que as decisões do Conselho frequentemente servem mais à elite do que ao povo. Sua conexão com Jayce a humaniza, mostrando um lado mais vulnerável por trás de sua postura calculista. No final da temporada, Mel é surpreendida pela chegada de sua mãe, Ambessa, que a alerta sobre os perigos da tecnologia Hextech e as ameaças externas a Piltover. Esse reencontro desperta em Mel lembranças do passado e a coloca entre dois mundos: o pragmatismo militar de Noxus e o idealismo de Piltover. Quando Jinx ataca o Conselho com o canhão Hextech, Mel está presente no local, e a cena final sugere que sua vida está em risco. Sua história em Arcane é a de uma mulher que fugiu da guerra para construir o poder através da diplomacia — mas que, no fim, se vê novamente cercada pela destruição que tentou deixar para trás.', 
+        },
+        vulgo: 'o Reflexo da Alma',
+      },
     ],
     []
   );
@@ -112,10 +176,10 @@ export default function Personagens() {
       <div className="w-[85%] relative flex flex-col gap-10 items-center justify-center pb-20">
         <div className="flex flex-col text-center w-full justify-center mt-50 items-center">
             <span className="text-white text-[1em] md:text-[1.5em] font-(family-name:--fontAll) font-semibold tracking-[2px]">Personagens</span>
-          <h1 className="text-amber-500 text-[1.8em] md:text-[2.5em] font-(family-name:--fontAll) font-bold tracking-[5px]">
+          <h1 className="text-amber-500 text-[1.3em] md:text-[1.8em] lg:text-[2.5em] font-(family-name:--fontAll) font-bold tracking-[5px]">
             ESCOLHA O SEU FAVORITO
           </h1>
-          <span className="text-white text-[0.9em] md:text-[1em] max-w-[70%]">Com personalidades marcantes e histórias entrelaçadas, cada um reflete o conflito entre Piltover e Zaun.
+          <span className="text-white text-[0.9em] md:text-[1em] md:max-w-[70%]">Com personalidades marcantes e histórias entrelaçadas, cada um reflete o conflito entre Piltover e Zaun.
 Descubra seus passados, suas lutas e o que os move em um mundo dividido entre progresso e caos.</span>
         </div>
 
